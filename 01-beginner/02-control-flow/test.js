@@ -7,12 +7,10 @@
 // if negative → print "Negative"
 // else → print "Zero"
 const a = 12;
-const b = -10;
-const c = 0;
 
-if ( b > 0 ) {
+if ( a > 0 ) {
     console.log("Positive");
-} else if (b < 0) {
+} else if (a < 0) {
     console.log("Negative");
 } else {
     console.log("Zero");
@@ -84,7 +82,7 @@ switch (day) {
 // Q9. Loop Test (for)
 
 // Print numbers from 1 to 10 using for loop
-for( i = 1 ; i <= 10 ; i++ ) {
+for( let i = 1 ; i <= 10 ; i++ ) {
     console.log(i);
 }
 
@@ -93,13 +91,11 @@ for( i = 1 ; i <= 10 ; i++ ) {
 // Q10. Even Numbers (while)
 
 // Print even numbers between 1 and 20 using while loop
-num = 1;
-{
-    if ((num%2) == 0) {
-        console.log(num);
-    }
-    num++;
-}while( num <= 20 );
+let num = 2;
+while (num <= 20) {
+    console.log(num);
+    num += 2;
+}
 
 // -----------------------------------------
 

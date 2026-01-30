@@ -25,40 +25,42 @@ This test covers:
 ### Q1. What is control flow in JavaScript?
 
 **Answer:**
-control flow in js is the flow of the js in vscode to display it into the browser and so..
+Control flow in JavaScript determines the order in which code executes, based on conditions and loops. For example, if-else decides which block of code runs, and loops repeat code until a condition is met.
 
 ---
 
 ### Q2. Difference between if-else and switch
 
 **Answer:**  
-if-else uses if(condition){} else {}.
-switch uses cases like switch(condition) case 1: case 2: and so on...
+if-else → for conditions that may be complex (ranges, multiple expressions)
+
+switch → when checking one variable against multiple fixed values
 
 ---
 
 ### Q3. When should you use a for loop vs a while loop?
 
 **Answer:**  
-for loop is used when you need some specific loops and stops after matches condition.
-while loop is used to run the loop until the condition is matched.
+for → use when you know exact number of iterations
+
+while → use when iterations depend on a condition that changes dynamically
 
 ---
 
 ### Q4. What are logical operators? Explain && and || with examples.
 
 **Answer:**  
-logical operators are operator like <, >, =, <=, >=.
+logical operators are operator like && → AND, || → OR.
 
-example for &&(and):
-if(a=2&&b=2){
-    console.log("its same and its 2")
+Example for ( && → AND ) and ( || → OR ):
+
+if (a > 5 && b < 10) {
+    console.log("Both conditions true");
+}
+if (a > 5 || b < 5) {
+    console.log("At least one condition true");
 }
 
-example for ||(or):
-if(a=2||b=2){
-    console.log("one of it is 2 out of them")
-}
 
 
 ---
@@ -66,8 +68,10 @@ if(a=2||b=2){
 ### Q5. What happens if no condition matches in if-else and switch?
 
 **Answer:**  
-if no condition matches in if-else and switch then,
-sometimes the loop keeps looping forever for unlimited time...
-and some of it crash program and throws error
+if-else → nothing runs if no condition matches (unless you use else)
+
+switch → runs default if provided, otherwise nothing happens
+
+Programs do not crash automatically
 
 
