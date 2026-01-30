@@ -32,6 +32,7 @@ The exam tests the following foundational topics:
     01-beginner/
     │
     └── 01-js-basics
+        │
         ├── theory.md # Theory questions and answers
         ├── test.js # Practical JavaScript test
         └── README.md # Documentation for this exam
