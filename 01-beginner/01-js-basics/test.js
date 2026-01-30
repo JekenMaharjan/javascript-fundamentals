@@ -1,4 +1,3 @@
-
 // PART B – PRACTICAL TEST
 
 // Q6.Variable Test
