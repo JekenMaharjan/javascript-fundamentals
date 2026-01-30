@@ -14,24 +14,27 @@
 ## PART A – THEORY
 
 Q1. What is JavaScript? Where does it run?
--> JavaScript is programming language which is used for interactive components in building web applications like error handling in forms, display on console of web browser, etc.
--> It runs on web browser.
+-> JavaScript is a programming language used to create interactive and dynamic web applications. It runs mainly in web browsers and can also run on servers using environments like Node.js.
 
 Q2. Difference between var, let, and const
--> 'var' means variable whose value can be changed.
--> 'let' means similar to the variable.
--> 'const' means constant whose value is most likely always same.
+-> 'var' means function-scoped, can be re-declared (avoid using)
+-> 'let' means block-scoped, value can change
+-> 'const' block-scoped, value cannot be reassigned
 
 Q3. What are primitive data types in JavaScript?
 -> Primitive datatypes in JavaScript are:
     1. string
-    2. integer/number
-    3. character (char)
-    4. boolean
+    2. number
+    3. boolean
+    4. undefined
+    5. null
+    6. symbol
+    7. bigint
 
 Q4. What does console.log() do and why is it important?
 -> It shows the output display(print) on the console of the web browser.
--> It important because it help us test if the program in Javascript it working well or not and also helps in debugging.
+-> It important because it help us test if the program in Javascript is working well or not and also helps in debugging.
 
 Q5. Difference between == and ===
--> '==' means that is equal to this i.e. a = b without checking its datatypes whereas '===' is similar to '==' but checks its datatypes properly.
+-> '==' allows type coercion
+-> '===' checks value + type

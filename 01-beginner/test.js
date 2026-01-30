@@ -33,7 +33,7 @@ console.log(typeof (fullName));
 console.log(typeof (rollNo));
 console.log(typeof (isEntered));
 console.log(typeof (notDefine));
-console.log(typeof (empty));
+console.log(typeof (empty)); // typeof null // "object" (classic JS quirk)
 
 // -----------------------------------------
 
@@ -87,8 +87,5 @@ if (ageOne >= 18) {
 const x = 10;
 const y = "10";
 
-if (x == y) {
-    console.log("10 == '10' is True");
-} else if (x === y) {
-    console.log("10 === '10' is True");
-}
+console.log(x == y);
+console.log(x === y);
