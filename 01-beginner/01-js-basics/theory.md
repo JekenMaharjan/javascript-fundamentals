@@ -2,8 +2,6 @@
 
 ## Topic: JavaScript Basics (Very Important Foundations)
 
----
-
 ## Syllabus
 
 This test covers:

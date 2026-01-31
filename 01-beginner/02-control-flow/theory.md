@@ -61,8 +61,6 @@ if (a > 5 || b < 5) {
     console.log("At least one condition true");
 }
 
-
-
 ---
 
 ### Q5. What happens if no condition matches in if-else and switch?

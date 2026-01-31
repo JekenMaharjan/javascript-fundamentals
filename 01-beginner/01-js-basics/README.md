@@ -6,9 +6,9 @@ This folder contains **Beginner Level – Exam 1** of the JavaScript Exam series
 
 ## 📘 Exam Overview
 
-**Level**: Beginner
-**Exam No**: 01
-**Topic**: JavaScript Basics (Very Important Foundations)
+- **Level**: Beginner
+- **Exam No**: 01
+- **Topic**: JavaScript Basics (Very Important Foundations)
 
 This exam focuses on understanding the core concepts of JavaScript that are required before moving to advanced topics like functions, arrays, objects, frameworks, and backend development.
 
@@ -31,7 +31,7 @@ The exam tests the following foundational topics:
 
     01-beginner/
     │
-    └── 01-js-basics
+    └── 01-js-basics/
         │
         ├── theory.md # Theory questions and answers
         ├── test.js # Practical JavaScript test
