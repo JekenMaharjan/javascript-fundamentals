@@ -1,6 +1,7 @@
 # JavaScript Exam – Beginner Level (Exam 3)
 
 This folder contains **Beginner Level – Exam 3** of the JavaScript Exam series.  
+
 It focuses on **Functions and Arrays**, which are core building blocks of JavaScript and are used everywhere — from React components to backend logic and interview questions.
 
 ---
@@ -126,5 +127,5 @@ The goal of this exam is to:
 - Start combining arrays with objects
 - Maintain clean commits and documentation
 
-📌 *This repository is maintained as part of a structured JavaScript learning and examination series, following a beginner-to-advanced roadmap.*
+📌 *This repository is maintained as part of a structured JavaScript learning and examination series, following a beginner-to-advanced roadmap.
 
