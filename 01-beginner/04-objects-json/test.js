@@ -8,7 +8,7 @@
 const student = {
     name : "Jeken",
     age  : 25,
-    isStudent : True
+    isStudent : true
 }
 console.log(student);
 
@@ -20,7 +20,7 @@ console.log(student);
 // Print student isStudent using bracket notation
 console.log(student.name);
 console.log(student.age);
-console.log(student[isStudent]);
+console.log(student["isStudent"]);
 
 // -----------------------------------------
 
@@ -30,10 +30,7 @@ console.log(student[isStudent]);
 // Add new property: grade
 // Print updated object
 student.age = 15;
-student = {
-    grade : 10
-}
-
+student.grade = 10;
 console.log(student);
 
 // -----------------------------------------
@@ -42,9 +39,10 @@ console.log(student);
 
 // Add a method to student object that prints:
 // "Hello, my name is <name>"
-function studentHello(student) {
-    console.log("Hello, my name is " + student.name);
+student.sayHello = function () {
+    console.log("Hello, my name is " + this.name);
 }
+student.sayHello();
 
 // -----------------------------------------
 
@@ -52,8 +50,8 @@ function studentHello(student) {
 
 // Convert student object to JSON
 // Print the JSON string
-const JSONdata = student.json
-console.log(JSONdata);
+const jsonData = JSON.stringify(student);
+console.log(jsonData);
 
 // -----------------------------------------
 
@@ -61,5 +59,5 @@ console.log(JSONdata);
 
 // Convert the JSON string back to JavaScript object
 // Print the object
-const backObject = stringify.JSONdata;
+const backObject = JSON.parse(jsonData);
 console.log(backObject);
