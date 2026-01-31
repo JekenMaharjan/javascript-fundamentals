@@ -30,7 +30,7 @@ console.log(student["isStudent"]);
 // Add new property: grade
 // Print updated object
 student.age = 15;
-student.grade = 10;
+student.grade = "A";
 console.log(student);
 
 // -----------------------------------------
