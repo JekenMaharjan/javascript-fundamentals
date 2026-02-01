@@ -29,16 +29,16 @@ This exam ensures you understand:
 This exam covers:
 
 1. JavaScript **Design Patterns**
-   - Module Pattern
-   - Factory Pattern
-   - Singleton Pattern
-   - Observer Pattern (concept)
-2. Error handling using `try...catch...finally`
-3. Difference between `throw` and `console.error`
-4. **Debouncing vs Throttling**
-5. JavaScript performance optimization techniques
-6. Memory leaks and prevention
-7. `Promise.all()` and `Promise.race()`
+- Module Pattern
+- Factory Pattern
+- Singleton Pattern
+- Observer Pattern (concept)
+1. Error handling using `try...catch...finally`
+2. Difference between `throw` and `console.error`
+3. **Debouncing vs Throttling**
+4. JavaScript performance optimization techniques
+5. Memory leaks and prevention
+6. `Promise.all()` and `Promise.race()`
 
 ---
 
