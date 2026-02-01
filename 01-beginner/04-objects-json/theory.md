@@ -7,13 +7,13 @@
 This test covers:
 
 1. What objects are
-1. Key–value pairs
-1. Accessing object properties
-1. Modifying object values
-1. Object methods
-1. What JSON is
-1. Difference between Object and JSON
-1. Converting Object ↔ JSON
+2. Key–value pairs
+3. Accessing object properties
+4. Modifying object values
+5. Object methods
+6. What JSON is
+7. Difference between Object and JSON
+8. Converting Object ↔ JSON
 
 ---
 

@@ -37,10 +37,10 @@ This exam covers the following topics:
 01-beginner/
 │
 └── 04-objects-json/
-│
-├── theory.md  # Theory questions and answers
-├── test.js    # Practical JavaScript test
-└── README.md  # Documentation for this exam
+    │
+    ├── theory.md  # Theory questions and answers
+    ├── test.js    # Practical JavaScript test
+    └── README.md  # Documentation for this exam
 ```
 
 ---
