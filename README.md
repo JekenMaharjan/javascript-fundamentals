@@ -6,7 +6,7 @@ A structured JavaScript exam repository covering Beginner to Advanced concepts w
 
 ---
 
-## Levels Covered
+## 📊 Levels Covered
 
 - Beginner (Foundations)
 - Intermediate (Core logic & async)
@@ -14,7 +14,7 @@ A structured JavaScript exam repository covering Beginner to Advanced concepts w
 
 ---
 
-## Structure
+## 🏗️ Structure
 
 Each exam contains:
 - theory.md → Conceptual understanding
@@ -23,7 +23,7 @@ Each exam contains:
 
 ---
 
-## Rules
+## 📜 Rules
 
 - Do not use console.log unless asked
 - Follow clean coding practices
@@ -109,7 +109,8 @@ javascript-exam/
 
 ---
 
-## Goal
+## 🎯 Goal
+
 Become a confident JavaScript developer ready for real-world projects and technical interviews.
 
 > Good luck 🚀
