@@ -3,19 +3,14 @@
 
 // Q1: Write a function that returns the square of a number
 function square(num) {
-    const squareNum = sqrt(num);
-    return squareNum;
+    return num * num;
 }
 
 // -----------------------------------------
 
 // Q2: Write a function that checks if a number is even or odd
 function checkEvenOdd(num) {
-    if (num%2 == 0) {
-        return ("number is even");
-    } else {
-        return ("number is odd");
-    }
+    return num % 2 === 0 ? "Even" : "Odd";
 }
 
 // -----------------------------------------
@@ -24,7 +19,7 @@ function checkEvenOdd(num) {
 function greet(name) {
     return `Hello, ${name}`;
 }
-// arrow function...
+// Converted...
 const greet = (name) => {
     return `Hello, ${name}`;
 }
@@ -35,26 +30,23 @@ const greet = (name) => {
 // and returns the total sum of its elements
 function sumArray(arr) {
     let sum = 0;
-    for (i=0; i<arr.length; i++) {
-        sum = sum + arr[i];
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
     }
-    return ("Sum of given elements are: " + sum);
+    return sum;
 }
 
 // -----------------------------------------
 
 // Q5: Write a function that returns the largest number in an array
 function findLargest(arr) {
-    let largeNum;
-    largeNum = arr[0];
-
-    for (i=1; i<arr.length; i++) {
-        if (largeNum > arr[i]) {
-            return (largeNum);
-        } else {
-            largeNum = arr[i];
+    let largest = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > largest) {
+            largest = arr[i];
         }
     }
+    return largest;
 }
 
 // -----------------------------------------
@@ -63,17 +55,12 @@ function findLargest(arr) {
 // The function should accept a number and a callback
 // and return the result of the callback
 function processNumber(num, callback) {
-    
-    return callback;
+    return callback(num);
 }
 
 // -----------------------------------------
 
 // Q7: Fix the bug
 function multiply(a, b) {
-    a * b;
-}
-
-function multiply(a, b) {
-    return (a * b);
+    return a * b;
 }
