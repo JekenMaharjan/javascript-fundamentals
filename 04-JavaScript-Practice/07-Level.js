@@ -20,6 +20,8 @@ console.log(result);
 // Output: [2, 4, 6, 8]
 // map() - Returns a new array of the same length after transforming each element.
 // It returns a new array after applying the callback to each element.
+// map() does not modify original array.
+// It always returns a new one.
 
 // =======================================================================
 
